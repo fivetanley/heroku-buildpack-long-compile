@@ -19,7 +19,7 @@ heroku config:set -a myapp LONG_COMPILE_TIME=1s
 ```
 
 The value can be anything that `sleep` for Linux can take, which can
-be found on [this blogbpost by
+be found on [this blog post by
 CyberCiti](https://www.cyberciti.biz/faq/linux-unix-sleep-bash-scripting/).
 
 # Installation
