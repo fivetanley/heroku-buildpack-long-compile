@@ -21,3 +21,9 @@ heroku config:set -a myapp LONG_COMPILE_TIME=1s
 The value can be anything that `sleep` for Linux can take, which can
 be found on [this blogbpost by
 CyberCiti](https://www.cyberciti.biz/faq/linux-unix-sleep-bash-scripting/).
+
+# Installation
+
+Add the buildpack to your dyno using the standard Heroku command:
+
+`heroku buildpacks:set https://github.com/fivetanley/heroku-buildpack-long-compile`
