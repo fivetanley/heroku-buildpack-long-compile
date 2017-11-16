@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "long-compile"
+exit 0

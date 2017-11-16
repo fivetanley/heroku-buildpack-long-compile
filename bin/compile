@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e
+
+COMPILE_TIME=${LONG_COMPILE_TIME:-"1m"}
+
+echo "sleeping for LONG_COMPILE_TIME($COMPILE_TIME) so you can test various long running things!!" \
+     "change LONG_COMPILE_TIME environment variable if you want a longer/shorter time"
+
+sleep $COMPILE_TIME
+
+exit 0
