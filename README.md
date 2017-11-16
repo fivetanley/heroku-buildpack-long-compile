@@ -14,7 +14,7 @@ Basically adds a `sleep` of a specified duration to the `compile` step
 of building your app. By default, the value is `1m`. You can change the
 value by setting the following config var:
 
-````
+```
 heroku config:set -a myapp LONG_COMPILE_TIME=1s
 ```
 
